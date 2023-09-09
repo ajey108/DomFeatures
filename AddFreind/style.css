@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 108, 243);
+}
+
+.card{
+    width: 200px;
+    height: 220px;
+    background-color: rgb(215, 212, 212);
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.card img {
+    width: 80%;
+    height: 50%;
+    margin: 2% 10%;
+    border-radius: 10px;
+   
+}
+
+.card button {
+ border: none;
+ width: 50px;
+ height: 20px;
+ background-color: rgb(47, 47, 255);
+ color: white;
+ margin: 20px;
+ border-radius: 20px;
+ cursor: pointer;
+}
+
+.card h3{
+    margin-top: 10px;
+}
